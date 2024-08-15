@@ -1,4 +1,4 @@
-S= sym('10875128'); % Student ID number
+S= sym('10875128'); % A student ID number
 
 p = sym(14*S^4+1); % p is a number larger than 14*S^4
 i = 0;
