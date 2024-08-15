@@ -1,4 +1,3 @@
-%Q3(a)
 S= sym('10875128'); % Student ID number
 
 p = sym(14*S^4+1); % p is a number larger than 14*S^4
@@ -33,7 +32,6 @@ q %output q
 e = 65537; % public key
 d = powermod(e,-1,(p-1)*(q-1)) % private key
 
-%Q3(b)
 % Assigns values of p, q and d (taken from Q3(a))
 p = sym('195823831997733803169326096579');
 q = sym('1825379347222157845194194547356857333');
